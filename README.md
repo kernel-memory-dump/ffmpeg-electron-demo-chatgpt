@@ -2,11 +2,21 @@
 
 This is a desktop application built with **Electron** and **FFmpeg** that allows users to visually select a crop area from the video before converting, and progress is displayed during the conversion process.
 
+
+
 ## Features
 - **Video Preview**: Load an MP4 file and preview it within the app.
 - **Crop Selection**: Manually select the area of the video to crop by dragging a selection box.
 - **Progress Tracking**: A progress bar indicates the conversion process in real-time.
 - **Cropping with Scaling**: The crop area is scaled correctly to match the original video resolution.
+
+## EXAMPLE
+
+- INPUT
+![image](https://github.com/user-attachments/assets/8058b0ce-7ecd-4644-a57a-d1ecd459f47d)
+
+- OUTPUT
+![image](https://github.com/user-attachments/assets/21c9e3e4-ead5-4613-a0a3-285c209b6d34)
 
 ## How to Install and Run the App
 
