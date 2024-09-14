@@ -1,0 +1,25 @@
+
+{
+  "name": "video-converter-app",
+  "version": "1.0.0",
+  "description": "An app to convert MP4 videos from 16:9 to 9:16",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.yourname.videoconverter",
+    "win": {
+      "target": "nsis"
+    }
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^23.0.0"
+  },
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "ffmpeg-static": "^4.4.0"
+  }
+}

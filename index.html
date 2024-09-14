@@ -1,0 +1,29 @@
+<html>
+<head><title>ChatGPT generated Video Converter HAHAH</title></head>
+<style>
+   #convertBtn {
+      font-size: 18px;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+   }
+
+   #convertBtn:hover {
+      background-color: #45a049;
+   }
+</style>
+<body>
+   <h1>Convert MP4 from 16:9 to 9:16</h1>
+   <input type="file" id="fileInput" accept="video/mp4">
+   <button id="convertBtn">Convert</button>
+   <br><br>
+   <video id="videoPreview" controls width="600"></video>
+   <canvas id="cropCanvas" style="position: absolute; border: 1px dashed red;"></canvas>
+   <br><br>
+   <progress id="progressBar" max="100" value="0"></progress>
+   <p id="status"></p>
+   <script src="renderer.js"></script>
+</body>
+</html>
